@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(home\ page\ nawwi\ odena.png);
+    background-image: -we;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.head_title {
+    font-size: 75px;
+}
+
+.list{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.list ul{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.list li {
+    color: black;
+    display: inline;
+    word-spacing: 10px;
+}
+
+.list li a{
+    padding: 0 15px;
+}
+
+.home {
+    color: white;
+}
+
+.head_title {
+    text-shadow: 3px 3px;
+}
+
+.text-container {
+    color: white;
+}
+
+.video_home {
+    height: fit-content;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.home_video {
+    color: white;
+}
+
+.home_info {
+    color: white;
+}
+
+.list li :visited {
+    text-decoration: none;
+}
+
+.wrap_home {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+}
+
+.video_about {
+    height: fit-content;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.wrap_about {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.wrap_partners {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.video_partners {
+    height: fit-content;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+/* home more info section style */
+.more_info{
+    background-color: #ffff;
+    display: flex;
+    padding: 50px;
+}
+
+/* footer style */
+.footer{
+    text-align: center;
+    background-color: blueviolet;
+    color: #fff;
+    padding: 15px;
+}
+
+
+/*this for the contact us page below8*/
+.sec_form{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column
+}
+.form_2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: solid 1px blueviolet;
+    padding: 50px 100px;
+    border-radius: 5px;
+     -webkit-border-radius:5px;
+}
+.send_button{
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+}
+.form label{
+    display: block;
+}
